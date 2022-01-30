@@ -8,19 +8,28 @@ class BirthdayPerson {
   static List<BirthdayPerson> getProducts() {
     List<BirthdayPerson> items = <BirthdayPerson>[];
 
-    items.add(BirthdayPerson("Pixel",
-        "Pixel is the most feature-full phone ever", 800, "pixel.png"));
-    items.add(BirthdayPerson("Laptop",
-        "Laptop is most productive development tool", 2000, "laptop.png"));
+    items.add(BirthdayPerson(
+        "Pixel",
+        "Pixel is the most feature-full phone ever",
+        800,
+        "https://source.unsplash.com/random/800x600?house"));
+    items.add(BirthdayPerson(
+        "Laptop",
+        "Laptop is most productive development tool",
+        2000,
+        "https://source.unsplash.com/random/800x600?house"));
     items.add(BirthdayPerson(
         "Tablet",
         "Tablet is the most useful device ever for meeting",
         1500,
-        "tablet.png"));
+        "https://source.unsplash.com/random/800x600?house"));
+    items.add(BirthdayPerson("Pendrive", "Pendrive is useful storage medium",
+        100, "https://source.unsplash.com/random/800x600?house"));
     items.add(BirthdayPerson(
-        "Pendrive", "Pendrive is useful storage medium", 100, "pendrive.png"));
-    items.add(BirthdayPerson("Floppy Drive",
-        "Floppy drive is useful rescue storage medium", 20, "floppy.png"));
+        "Floppy Drive",
+        "Floppy drive is useful rescue storage medium",
+        20,
+        "https://source.unsplash.com/random/800x600?house"));
     return items;
   }
 }
